@@ -1,7 +1,7 @@
-import Role from './Role';
-import User from './User';
+import Role from '../types/Role';
+import User from '../types/User';
 
-interface MemberOptions {
+export interface MemberOptions {
     user?: User;
     nick?: string | null;
     avatar?: string | null;

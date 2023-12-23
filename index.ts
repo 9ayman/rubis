@@ -1,5 +1,5 @@
 import Client, { ClientEvents } from "./lib/Client"
-import { Message } from "./lib/Types/Message"
+import { Message } from "./lib/types/Message"
 
 const client = new Client()
 

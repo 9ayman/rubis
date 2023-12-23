@@ -1,5 +1,5 @@
-import Member from './Member';
-import User from './User';
+import Member from "../types/Member";
+import User from "../types/User";
 
 export class Channel {
     /** The id of this channel. */

@@ -1,6 +1,6 @@
 import EventEmitter from "events";
 import WebSocketManager from "./ws/WebSocketManager";
-import ClientUser from "./Types/ClientUser";
+import ClientUser from "./types/ClientUser";
 
 export default class Client extends EventEmitter {
     private ws: WebSocketManager = new WebSocketManager(this)

@@ -1,5 +1,5 @@
-import Member from "./Member";
-import User from "./User";
+import User from "../types/User";
+import Member from "../types/Member";
 
 export interface MessageInteraction {
     /** ID of the interaction. */

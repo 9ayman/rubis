@@ -1,13 +1,12 @@
-import { Application } from "express";
-import { Attachment } from "./Attachment";
-import { ChannelMention } from "./Channel";
-import { Embed } from "./Embed";
-import { Reaction } from "./Reaction";
-import { MessageInteraction } from "./Interaction";
-import User from "./User";
-import { Channel } from "diagnostics_channel";
-import { ResolvedData } from "./ResolvedData";
-import { Emoji } from "./Guild";
+import { Application } from "../types/Application"
+import { Attachment } from "../types/Attachment";
+import { Channel, ChannelMention } from "../types/Channel";
+import { Embed } from "../types/Embed";
+import { Reaction } from "../types/Reaction";
+import { MessageInteraction } from "../types/Interaction";
+import User from "../types/User";
+import { ResolvedData } from "../types/ResolvedData";
+import { Emoji } from "../types/Guild";
 
 export class Message {
     // The id of the message

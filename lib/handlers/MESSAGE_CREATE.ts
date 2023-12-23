@@ -1,5 +1,5 @@
 import Client from "../Client";
-import { Message } from "../Types/Message";
+import { Message } from "../types/Message";
 import { Payload } from "../interfaces/Payload";
 
 

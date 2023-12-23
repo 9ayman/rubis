@@ -1,6 +1,6 @@
 import e from "express";
 import Client from "../Client";
-import ClientUser from "../Types/ClientUser";
+import ClientUser from "../types/ClientUser";
 import { Payload } from "../interfaces/Payload";
 
 

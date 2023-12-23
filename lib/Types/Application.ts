@@ -1,5 +1,5 @@
-import User from "./User";
-import Guild from "./Guild";
+import User from "../types/User";
+import Guild from "../types/Guild";
 
 export interface Application {
     /** ID of the app. */

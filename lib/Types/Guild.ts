@@ -1,4 +1,3 @@
-
 export interface Emoji {
     /** ID of the emoji */
     id?: string;
@@ -11,5 +10,5 @@ export interface Emoji {
 }
 
 export default class Guild {
-    
+
 }

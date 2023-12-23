@@ -1,9 +1,9 @@
-import User from './User';  
-import { Attachment } from './Attachment';
-import { Message } from './Message';
-import { Channel } from './Channel';
-import Role from './Role';
-import Member from './Member';
+import User from '../types/User';  
+import { Attachment } from '../types/Attachment';
+import { Message } from '../types/Message';
+import { Channel } from '../types/Channel';
+import Role from '../types/Role';
+import Member from '../types/Member';
 
 export interface ResolvedData {
     /** The ids and User objects. */
