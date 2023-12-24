@@ -1,8 +1,8 @@
 # Code example
 
 ```ts
-import Client, { ClientEvents } from "ruby.js"
-import { Message } from "ruby.js"
+import Client, { ClientEvents } from "rubis"
+import { Message } from "rubis"
 
 const client = new Client()
 
